@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Form Errors</title>
+  <meta name="viewport" content="width=device-width, inital-scale=1">
+  <link href="../../common/modules.css" rel="stylesheet">
+  <link href="../../common/type.css" rel="stylesheet">
+  <link href="../../common/main.css" rel="stylesheet">
+</head>
+<body>
+
+  <form class="max-length island" method="post">
+    <div class="push-1-2">
+      <label for="name">Name</label>
+      <input id="name" required>
+    </div>
+
+    <div class="push-1-2">
+      <label for="email">Email</label>
+      <input type="email" id="email" required>
+    </div>
+
+    <div class="push-1-2">
+      <label for="url">Website <em class="flag-optional milli normal">(optional)</em></label>
+      <input type="url" id="url">
+    </div>
+
+    <div class="push-1-2 pad-t-1-2">
+      <input type="checkbox" id="agree" required>
+      <label for="agree">Yassss giiirrrl</label>
+    </div>
+
+    <div class="pad-t-1-2">
+      <button class="btn" type="submit">Send</button>
+    </div>
+  </form>
+
+</body>
+</html>
